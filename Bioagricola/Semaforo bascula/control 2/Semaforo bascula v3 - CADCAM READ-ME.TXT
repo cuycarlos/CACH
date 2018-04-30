@@ -1,0 +1,51 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'Semaforo bascula v3'.
+CADCAM generated at 02:47:01 p.m. on domingo, 29 de abril de 2018.
+
+File List
+---------
+Top Copper              : Semaforo bascula v3 - CADCAM Top Copper.TXT
+Bottom Copper           : Semaforo bascula v3 - CADCAM Bottom Copper.TXT
+Top Silk Screen         : Semaforo bascula v3 - CADCAM Top Silk Screen.TXT
+Top Solder Resist       : Semaforo bascula v3 - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : Semaforo bascula v3 - CADCAM Bottom Solder Resist.TXT
+Mechanical 1            : Semaforo bascula v3 - CADCAM Mechanical 1.TXT
+Drill                   : Semaforo bascula v3 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=70th                                                            DRAW
+D11	CIRCLE  D=80th                                                            FLASH
+D12	CIRCLE  D=100th                                                           FLASH
+D13	CIRCLE  D=120th                                                           FLASH
+D14	SQUARE  S=50th                                                            FLASH
+D15	CIRCLE  D=50th                                                            FLASH
+D16	CIRCLE  D=60th                                                            FLASH
+D17	CIRCLE  D=70th                                                            FLASH
+D18	CIRCLE  D=300th                                                           FLASH
+D19	CIRCLE  D=8th                                                             DRAW
+D70	CIRCLE  D=130th                                                           FLASH
+D71	CIRCLE  D=150th                                                           FLASH
+D20	SQUARE  S=70th                                                            FLASH
+D21	CIRCLE  D=90th                                                            FLASH
+D22	CIRCLE  D=340th                                                           FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	15th (0-15)
+T02	60th (0-15)
+T03	30th (0-15)
+T04	80th (0-15)
+
+
+[END OF FILE]
